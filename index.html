@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Online Courses</h1>
+            <p>Enhance your skills with our expert-led online courses.</p>
+            <a href="#register" class="cta-button">Register Now</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>We provide a wide range of online courses designed to help you learn new skills and advance your career.</p>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register">
+        <div class="content">
+            <h2>Register for a Course</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="course">Course:</label>
+                <select id="course" name="course">
+                    <option value="webdev">Web Development</option>
+                    <option value="datasci">Data Science</option>
+                    <option value="ai">Artificial Intelligence</option>
+                </select>
+
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Courses. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
